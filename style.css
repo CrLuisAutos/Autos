@@ -85,7 +85,7 @@ body {
     background-color: #FF0000;
 }
 h3 {
-    font-family: "Homer Simpson", cursive
+    font-family: "Homer Simpson", cursive;
 }
 mark {
     background-color: #ffffff;
@@ -223,11 +223,12 @@ hr {
 .modal{
     display: none;
 }
-.modal: target{
+.modal:target{
     display: block;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-style: solid;
     align-items: center;
     position: fixed;
     background: rgba(0,0,0,0.8);
