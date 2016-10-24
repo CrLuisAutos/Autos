@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
 }
 .carousel {
+    max-height: 60vh;
     width: 100%;
     overflow: hidden;
 }
@@ -20,8 +21,7 @@ body {
 }
 .carousel img {
     width: 100%;
-    height: 100%;
-    margin: 0px;
+    height:100%;
 }
 .carousel ul {
     display: flex;
@@ -29,6 +29,7 @@ body {
     animation: cambio 10s infinite alternate;
     animation-timing-function: linear;
 }
+
 @keyframes cambio {
     0% {
         margin-left: 0%
@@ -60,7 +61,6 @@ body {
     flex-direction: column;
     background-color: #ffffff;
     width: 90%;
-    height: 1000px
 }
 .menu1 {
     list-style-type: none;
@@ -156,7 +156,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 280px;
+    height: 380px;
     align-items: center;
 }
 .brands {
@@ -194,24 +194,31 @@ hr {
     text-align: center;
     height: 40px;    
 }
+
 .container-main {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
-    height: 600px;
-    border-style: solid;
+    min-height: 600px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.containerTwo-img {
+.item{
+    width: 160px;
+    height: 280px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
-    min-width: 160px;
-    height: 200px;
     border-style: solid;
 }
 .bmw {
     width: 160px;
     height: 130px
 }
+table th{
+    text-align: left;
+}
+table tr:nth-child(odd) {background-color: #A9D0F5;}
+
+table tr:nth-child(even) {background-color: #ffffff;}
