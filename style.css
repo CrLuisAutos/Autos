@@ -96,12 +96,12 @@ mark {
     width: 100%;
 }
 #new{
-    margin-right:50%; 
+    margin-right:40%; 
 }
 .form{
     margin: 20px;
 }
-input[type=text] {
+input[type=search] {
     padding:3px;
     margin-right: 3px;
     border:2px solid #ccc; 
@@ -109,7 +109,7 @@ input[type=text] {
     border-radius: 5px;
 }
 
-input[type=text]:focus {
+input[type=search]:focus {
     border-color:#333;
 }
 
@@ -120,6 +120,10 @@ input[type=submit] {
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px; 
+}
+select{
+    margin-right: 2px;
+    width: 90px;
 }
 form{
     display: flex;
