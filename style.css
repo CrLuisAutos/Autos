@@ -223,6 +223,10 @@ hr {
 table th{
     text-align: left;
 }
-table tr:nth-child(odd) {background-color: #A9D0F5;}
+table tr:nth-child(odd) {
+    background-color: #A9D0F5;
+}
 
-table tr:nth-child(even) {background-color: #ffffff;}
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
